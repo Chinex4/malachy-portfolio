@@ -1,0 +1,23 @@
+.specialty {
+	height: 40rem;
+}
+.latest_shot {
+	height: 30rem;
+}
+
+@media screen and (max-width: 766px) {
+    .specialty {
+        height: 40rem;
+    }
+    .latest_shot {
+        height: 40rem;
+    }
+}
+@media (min-width: 767px) and (max-width: 1024) {
+    .specialty {
+        height: 40rem;
+    }
+    .latest_shot {
+        height: 30rem;
+    }
+}
