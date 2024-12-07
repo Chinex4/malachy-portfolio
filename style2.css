@@ -5,12 +5,24 @@
 	height: 30rem;
 }
 
+.fullscreenbanner ul li{
+    height: 90% !important;
+}
+.celebrity-name{
+    margin: 1rem 0;
+    /* padding: 1rem 0; */
+}
+
 @media screen and (max-width: 766px) {
     .specialty {
         height: 40rem;
     }
     .latest_shot {
         height: 40rem;
+        /* margin-bottom: 5rem 0; */
+    }
+    .items li {
+        margin-bottom: 6rem;
     }
 }
 @media (min-width: 767px) and (max-width: 1024) {
